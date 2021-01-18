@@ -1,0 +1,71 @@
+#wrapper{
+width: 100%;
+margin-left:  auto;
+margin-right: auto;
+
+
+}
+
+
+  header{
+    height: 100px;
+    width: 100%;
+    background-color:pink;
+    }
+
+
+    nav{
+
+      height: 50px;
+      width: 100%;
+      background-color: #a83250;
+      }
+      main{
+        height: 400px;
+        width: 60%;
+        background-color: #44dffc;
+
+
+
+      }
+      aside{
+        height: 400px;
+        width: 40%;
+        background-color: #03d99c;
+
+
+      }
+
+      footer{
+
+        height: 50px;
+        width: 100%;
+        background-color: #ccdffc;
+
+      }
+
+      #container{
+        display:flex;
+
+      }
+
+      /* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none; 
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
